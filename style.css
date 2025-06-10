@@ -128,3 +128,34 @@ a {
 .popular {
   border: 2px solid #00bfff;
 }
+.content {
+  padding: 20px;
+}
+
+.movie-row {
+  margin-bottom: 30px;
+}
+
+.movie-row h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #00bfff;
+}
+
+.movie-thumbnails {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.movie-thumbnails img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.movie-thumbnails img:hover {
+  transform: scale(1.05);
+}
