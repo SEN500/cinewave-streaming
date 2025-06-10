@@ -56,3 +56,6 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+<nav className="nav">
+  <a href="signin.html">Sign In</a>
+</nav>
