@@ -59,3 +59,24 @@ ReactDOM.render(<App />, document.getElementById("root"));
 <nav className="nav">
   <a href="signin.html">Sign In</a>
 </nav>
+function App() {
+  return (
+    <div className="app">
+      <header className="header">
+        <div className="logo">🎬 CineWave</div>
+        <nav className="nav">
+          <a href="signin.html">Sign In</a>
+          <a href="signup.html">Sign Up</a>
+        </nav>
+      </header>
+
+      <main className="main">
+        <h1>Unlimited Movies, TV Shows, and More.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <button className="cta" onClick={() => window.location.href = 'signup.html'}>
+          Get Started
+        </button>
+      </main>
+    </div>
+  );
+}
